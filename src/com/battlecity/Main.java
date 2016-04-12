@@ -1,16 +1,16 @@
 package com.battlecity;
+import com.battlecity.Model.Plansza;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        System.gc();
+        Plansza plansza = new Plansza();
 
-
-       System.gc();
-    while(true){
-//kk
-        ii
-    }
+        while(true){
+            plansza.Graj();
+            plansza.Rysuj();
+        }
 
     }
 }
