@@ -6,6 +6,6 @@ public class Main {
 	// write your code here
 
 
-        // dupa test test2
+       system.gc();
     }
 }
