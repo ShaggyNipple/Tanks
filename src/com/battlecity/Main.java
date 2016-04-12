@@ -8,7 +8,7 @@ public class Main {
         Plansza plansza = new Plansza();
 
 
-        
+
         while(true){
             plansza.Graj();
             plansza.Rysuj();
