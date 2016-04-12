@@ -8,6 +8,5 @@ import java.awt.*;
 public class Blok {
     private Point polozenie;
     private int wytrzymalosc;
-    private int testowa111;
-
+    private int testowa11;
 }
