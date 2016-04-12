@@ -26,7 +26,7 @@ public class Plansza {
         // tu toczy sie logika gry
     }
     public void Rysuj(){
-        imterejs.RysujGre(listaObiektow, ROZMIAR_PLANSZY);
+        interfejs.RysujGre(listaObiektow, ROZMIAR_PLANSZY);
         // tu rysujesz
     }
 
