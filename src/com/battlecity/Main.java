@@ -3,10 +3,9 @@ package com.battlecity;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	// KORNEL LALALALAL KOT
 
-
-       system.gc();
+        System.gc();
     while(true){
         
     }
