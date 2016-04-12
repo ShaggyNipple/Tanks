@@ -52,5 +52,20 @@ public abstract class Obiekt {
         return this.kto;
     }
 
-    public abstract void KolizjaObiektu(Obiekt obt);
+    public void CzolgNaCzolg(Obiekt obt){
+        //if()
+    }
+    
+    public void KolizjaObiektu(Obiekt obt){
+        int tmpX,tmpY;
+        tmpX = this.getX();
+        tmpY = this.getY();
+
+        if( this.getKto() == obt.getKto()){
+            // czolg uderzyl w czolg
+            CzolgNaCzolg(obt);
+        } else {
+            // czolg w sciane, zarosla itd
+        }
+    }
 }

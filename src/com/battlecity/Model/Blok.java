@@ -14,13 +14,4 @@ public class Blok extends Obiekt {
         // a b c d
     }
 
-    public void KolizjaObiektu(Obiekt obt){
-        int tmpX,tmpY;
-        tmpX = this.getX();
-        tmpY = this.getY();
-
-         if( this.getKto() == obt.getKto()){
-             // czolg uderzyl w czolg
-         }
-    }
 }
