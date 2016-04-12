@@ -11,6 +11,7 @@ public class Plansza {
 
     public void kolizja(){
         //taka sobie kolizja
+        //jeszcze raz
     }
 
 }
