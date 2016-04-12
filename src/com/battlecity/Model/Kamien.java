@@ -14,4 +14,20 @@ public class Kamien extends Blok {
     public void setKamienistosc(int kamienistosc) {
         this.kamienistosc = kamienistosc;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Kamien kamien = (Kamien) o;
+
+        return kamienistosc == kamien.kamienistosc;
+
+    }
+
+    @Override
+    public int hashCode() {
+        return kamienistosc;
+    }
 }
