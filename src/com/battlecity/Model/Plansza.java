@@ -9,8 +9,13 @@ public class Plansza {
     private ArrayList listaObiektow;
     private ArrayList listaPociskow;
 
-    public void kolizja(){
+    public Plansza(){
 
+    }
+
+    public void kolizja(){
+        //taka sobie kolizja
+        //kurwa
     }
 
 }
