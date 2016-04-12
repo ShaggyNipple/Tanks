@@ -9,5 +9,5 @@ public class Blok {
     private Point polozenie;
     private int wytrzymalosc;
     private int testowa11;
-    private int testowa12;
+    private int testowa1233;
 }
