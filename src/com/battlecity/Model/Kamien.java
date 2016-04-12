@@ -1,10 +1,17 @@
 package com.battlecity.Model;
 
-/**
- * Created by Dawid on 2016-04-12.
- */
 public class Kamien extends Blok {
     private int kamienistosc;
-    private int lolol;
 
+    public Kamien(int kamienistosc) {
+        this.kamienistosc = kamienistosc;
+    }
+
+    public int getKamienistosc() {
+        return kamienistosc;
+    }
+
+    public void setKamienistosc(int kamienistosc) {
+        this.kamienistosc = kamienistosc;
+    }
 }
