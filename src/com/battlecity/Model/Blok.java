@@ -5,7 +5,7 @@ import java.awt.*;
 /**
  * Created by Dawid on 2016-04-12.
  */
-public class Blok {
+public class Blok extends Obiekt {
     private Point polozenie;
     private int wytrzymalosc;
     private int testowa11;
