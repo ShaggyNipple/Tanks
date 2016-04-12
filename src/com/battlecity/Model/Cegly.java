@@ -5,6 +5,6 @@ package com.battlecity.Model;
  */
 public class Cegly extends Blok {
     public Cegly(){
-    /// test 
+    /// test
     }
 }
