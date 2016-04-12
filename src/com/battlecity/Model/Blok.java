@@ -9,4 +9,18 @@ public class Blok extends Obiekt {
     private Point polozenie;
 
     private int testowa11;
+
+    public Blok(){
+        // a b c d
+    }
+
+    public void KolizjaObiektu(Obiekt obt){
+        int tmpX,tmpY;
+        tmpX = this.getX();
+        tmpY = this.getY();
+
+         if( this.getKto() == obt.getKto()){
+             // czolg uderzyl w czolg
+         }
+    }
 }

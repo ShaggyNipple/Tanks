@@ -48,6 +48,9 @@ public abstract class Obiekt {
     public int getY(){
         return this.Y;
     }
+    public char getKto(){
+        return this.kto;
+    }
 
-    //public abstract void akcja();
+    public abstract void KolizjaObiektu(Obiekt obt);
 }
