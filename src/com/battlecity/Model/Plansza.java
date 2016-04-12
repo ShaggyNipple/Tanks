@@ -18,4 +18,11 @@ public class Plansza {
         //kurwa
     }
 
+    public void Graj(){
+        // tu toczy sie logika gry
+    }
+    public void Rysuj(){
+        // tu rysujesz
+    }
+
 }
