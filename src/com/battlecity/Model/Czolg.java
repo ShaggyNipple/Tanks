@@ -6,7 +6,7 @@ import java.awt.*;
 /**
  * Created by Dawid on 2016-04-12.
  */
-public class Czolg {
+public class Czolg extends Obiekt{
     private int zycia;
     private Point polozenie;
     private int idGracza;
