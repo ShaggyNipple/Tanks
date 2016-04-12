@@ -10,13 +10,14 @@ import java.util.List;
  */
 public class Plansza {
     private List<Obiekt> listaObiektow;
-    private ArrayList listaPociskow;
+    private List<Pocisk> listaPociskow;
     private Interfejs interfejs;
     private static final int ROZMIAR_PLANSZY = 32;
 
     public Plansza(){
         this.interfejs = new Interfejs();
         this.listaObiektow = new ArrayList<Obiekt>();
+        this.listaPociskow = new ArrayList<Pocisk>();
     }
 
     public void Kolizja(){
@@ -28,6 +29,7 @@ public class Plansza {
     }
     public void Rysuj(){
         interfejs.RysujGre(listaObiektow, ROZMIAR_PLANSZY);
+        interfejs.RysujPociski(listaPociskow, ROZMIAR_PLANSZY);
         // tu rysujesz
     }
 

@@ -1,7 +1,7 @@
 package com.battlecity.View;
 
 import com.battlecity.Model.Obiekt;
-
+import com.battlecity.Model.Pocisk;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,4 +17,9 @@ public class Interfejs {
     public void RysujGre(List<Obiekt> listaObiektow, int rozmiarPlanszy){
 
     }
+
+    public void RysujPociski(List<Pocisk> listaPociskow, int rozmiarPlanszy){
+
+    }
+
 }

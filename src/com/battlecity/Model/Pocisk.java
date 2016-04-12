@@ -8,4 +8,8 @@ public class Pocisk {
     private int punktKonca;
     private Czolg wystrzelil;
     private int idPocisku;
+
+    public Pocisk(){
+        // pociski
+    }
 }

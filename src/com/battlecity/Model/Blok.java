@@ -7,6 +7,6 @@ import java.awt.*;
  */
 public class Blok extends Obiekt {
     private Point polozenie;
-    private int wytrzymalosc;
+
     private int testowa11;
 }
