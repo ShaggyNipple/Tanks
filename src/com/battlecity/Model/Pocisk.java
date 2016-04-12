@@ -9,7 +9,10 @@ public class Pocisk {
     private Czolg wystrzelil;
     private int idPocisku;
 
+    private Pair<Float,Float> punkt;
+
     public Pocisk(){
+       
         // pociski
     }
 }

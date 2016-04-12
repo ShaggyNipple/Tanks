@@ -55,7 +55,7 @@ public abstract class Obiekt {
     public void CzolgNaCzolg(Obiekt obt){
         //if()
     }
-    
+
     public void KolizjaObiektu(Obiekt obt){
         int tmpX,tmpY;
         tmpX = this.getX();
