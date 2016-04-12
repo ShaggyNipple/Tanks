@@ -7,7 +7,7 @@ public class Main {
 
 
        system.gc();
+    while
 
-        
     }
 }
