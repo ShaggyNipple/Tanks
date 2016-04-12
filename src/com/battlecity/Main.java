@@ -9,6 +9,7 @@ public class Main {
        System.gc();
     while(true){
 //kk
+        ii
     }
 
     }
