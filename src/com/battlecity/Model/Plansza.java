@@ -10,7 +10,7 @@ public class Plansza {
     private ArrayList listaPociskow;
 
     public void kolizja(){
-
+        //taka sobie kolizja
     }
 
 }
