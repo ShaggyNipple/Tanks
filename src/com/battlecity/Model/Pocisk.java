@@ -10,6 +10,6 @@ public class Pocisk {
     private int idPocisku;
 
     public Pocisk(){
-        // pociski 
+        // pociski
     }
 }
