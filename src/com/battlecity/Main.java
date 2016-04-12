@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
 
 
-       system.gc();
+       System.gc();
     while(true){
         // test
     }
